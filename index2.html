@@ -1,0 +1,38 @@
+<html>
+
+<head>
+    <title>Maths Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main2.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body onload="getValue()" id="body2">
+    <h4 id="player1Lbl"></h4><span id="player1Score"></span>
+    <h4 id="player2Lbl"></h4><span id="player2Score"></span>
+    <div class="container">
+        <center>
+            <h1>Math Quiz Game!</h1>
+            <h2>Question Turn : <span id="questionPlayer"></span></h2>
+            <h2>Answer Turn : <span id="answerPlayer"></span></h2>
+            <div id="output"></div>
+            <br>
+            <br>
+            <label>Number1</label>
+            <br>
+            <input type="number" id="num1Input" placeholder="Number1">
+            <br>
+            <br>
+            <label>Number2</label>
+            <br>
+            <input type="number" id="num2Input" placeholder="Number2">
+            <br>
+            <br>
+            <button id="sendBtn" class="btn btn-success" onclick="sendQues()">Send</button>
+        </center>
+    </div>
+</body>
+
+</html>

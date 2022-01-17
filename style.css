@@ -1,0 +1,80 @@
+body {
+    text-align: center;
+    background-image: url("Background4.jpg");
+    background-size: cover;
+    font-family: 'Twinkle Star', cursive;
+    display: inline;
+}
+
+#body2 {
+    background-image: url("Background4.jpg");
+    background-size: cover;
+    text-align: left;
+}
+
+.loginDiv {
+    text-align: center;
+    font-family: 'Twinkle Star', cursive;
+    position: relative;
+    top: 50px;
+    left: 570px;
+    font-size: 30px;
+    border-radius: 50px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    background-color: yellow;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    width: fit-content;
+}
+
+#btnLogin {
+    background-color: rgb(217, 255, 0);
+    font-weight: bolder;
+    width: 10%;
+    font-size: 20px;
+    border-radius: 50px;
+    border-color: black;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+h2 {
+    font-weight: bolder;
+}
+
+input {
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 30px;
+    padding-left: 20px;
+}
+
+#player1Lbl,
+#player2Lbl {
+    font-size: 12px;
+    color: black;
+    margin-left: 10px;
+}
+
+#output {
+    background: white;
+    border-radius: 10px;
+    border-top: 10px solid #AA4465;
+    padding: 10px;
+    float: none;
+    text-align: left;
+    width: 50%;
+}
+
+#num1Input,
+#num2Input {
+    width: 50%;
+}
